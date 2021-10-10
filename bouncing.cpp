@@ -9,8 +9,6 @@
 #define WIDTH 80
 #define FPS 30
 
-using namespace std;
-
 int main()
 {
   char *pixelArr = (char *)malloc(sizeof(char) * HEIGHT * WIDTH * 2);
